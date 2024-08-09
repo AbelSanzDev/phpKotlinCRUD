@@ -1,8 +1,8 @@
 <?php
-$hostname_localhost = "mysql.railway.internal";
-$database_localhost = "railway";
+$hostname_localhost = "localhost";
+$database_localhost = "agenda";
 $username_localhost = "root";
-$pass_localhost = "UGOmQptMrqMKFKFdeBSpUSRbpCxLqOzD";
+$pass_localhost = "cisco123";
 
 $json = array();
 
@@ -42,4 +42,3 @@ if (isset($_GET['idMovil'])) {
 }
 
 echo json_encode($json);
-?>
